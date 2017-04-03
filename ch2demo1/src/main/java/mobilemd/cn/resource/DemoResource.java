@@ -14,7 +14,7 @@ import java.util.List;
 public class DemoResource {
 
     @GET
-    @Produces({MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON})
+    @Produces({MediaType.APPLICATION_JSON})
     public List<String> hi(){
         List<String> result=new ArrayList<>();
         result.add("jerry");
